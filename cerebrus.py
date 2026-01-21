@@ -1,11 +1,4 @@
-#!/usr/bin/env python3
-"""
-Cerebrus v1.0 - Python Network Analysis Tool
-Similar to Nmap functionality
-
-DISCLAIMER: For EDUCATIONAL and AUTHORIZED testing only.
-Unauthorized scanning of networks is illegal.
-"""
+#cerebrus --network scanner tool
 
 import socket
 import threading
@@ -30,11 +23,8 @@ TOP_PORTS = [21, 22, 23, 25, 53, 80, 110, 135, 139, 143, 443, 445,
              993, 995, 1433, 1521, 3306, 3389, 5432, 5900, 8080]
 
 BANNER = """
-+------------------------------------------+
-|            Cerebrus v1.0                 |
-|   Python Network Analysis Tool           |
-|   For Educational Use Only               |
-+------------------------------------------+
+        Cerebrus v1.0                 
+  Python Network Analysis Tool   
 """
 
 
@@ -342,3 +332,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
