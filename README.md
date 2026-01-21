@@ -38,7 +38,5 @@ target              Target IP, hostname, or CIDR range
 --no-banner         Skip banner display
 ```
 
-## Legal
 
-Only scan networks you own or have permission to test.
 
