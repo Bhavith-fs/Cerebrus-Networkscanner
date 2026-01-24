@@ -17,10 +17,10 @@
 ## 🎯 Overview
 
 **Cerebrus** is a **Python-based network analysis tool** designed for fast reconnaissance and enumeration.  
-It performs **TCP connect scans**, **host discovery**, and **basic service/version detection** using only Python’s standard library — making it portable, simple, and powerful.
+It performs **TCP connect scans**, **host discovery**, and **basic service/version detection** using only Python’s standard library.
 
 > 💡 **Why Cerebrus?**  
-Unlike heavy scanners, Cerebrus focuses on clarity, speed, and learning-friendly design — perfect for students, pentesters, and lab environments.
+Cerebrus is lightweight, portable, and easy to understand — ideal for **cybersecurity students**, **CTF practice**, and **authorized penetration testing labs**.
 
 ---
 
@@ -45,6 +45,17 @@ Unlike heavy scanners, Cerebrus focuses on clarity, speed, and learning-friendly
 - **Python 3.6+**
 - ❌ No external dependencies
 - Works on **Windows / Linux / macOS**
+
+---
+
+## 📥 Installation
+
+Clone the repository and move into the project directory:
+
+```bash
+git clone https://github.com/Bhavith-fs/Cerebrus-Networkscanner.git
+cd Cerebrus-Networkscanner
+```
 
 ---
 
@@ -99,13 +110,13 @@ target              Target IP, hostname, or CIDR range
 ## 🧠 How It Works
 
 - **Host Discovery**  
-  Attempts TCP connections to common ports (80, 443, 22, etc.) to detect live hosts.
-  
+  Detects live hosts by attempting TCP connections to common service ports.
+
 - **Port Scanning**  
-  Uses multi-threaded TCP connect scans for reliability.
+  Uses multi-threaded TCP connect scans for reliable results.
 
 - **Service Detection**  
-  Identifies services based on port mapping and banner grabbing.
+  Maps open ports to known services and grabs banners when possible.
 
 - **Version Detection**  
   Performs lightweight protocol-specific checks (HTTP, SSH, FTP).
@@ -126,7 +137,7 @@ Cerebrus/
 ## ⚠️ Disclaimer
 
 > This tool is intended **for educational purposes and authorized security testing only**.  
-> Unauthorized scanning of networks you do not own or have permission to test may be illegal.
+> Scanning networks without permission may be illegal.
 
 ---
 
